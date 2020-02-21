@@ -5,4 +5,4 @@ def celsius_to_fahrenheit(c)
   fahrenheit = (c.to_f * 9/5) + 32
 end
 
-puts The temperature in {celsius_to_fahrenheit(celsius)} Farenheit
+puts "The temperature is #{celsius_to_fahrenheit(celsius)} Farenheit"
